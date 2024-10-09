@@ -50,7 +50,7 @@ export const Todo = () => {
   }, [todoList]);
 
   return (
-    <div className="bg-white place-self-center w-11/12 max-w-md flex flex-col p-7 min-h-[550px] rounded-xl">
+    <div className="bg-white md:place-self-center w-11/12 max-w-md flex flex-col p-7 min-h-[550px] rounded-xl">
       {/* title section */}
       <div className="flex items-center m-7 gap-2 ">
         <img src={ToDoIcon} alt="" className="w-8" />
